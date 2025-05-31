@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata minClientVersion="5.0.0">
+    <id>CefSharp.Wpf.NETCore</id>
+    <version>110.0.250</version>
+    <authors>The CefSharp Authors</authors>
+    <owners>The CefSharp Authors</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="file">LICENSE</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <projectUrl>https://github.com/cefsharp/cefsharp</projectUrl>
+    <description>The CefSharp Chromium-based browser component (WPF control).</description>
+    <releaseNotes>See https://github.com/cefsharp/CefSharp/releases/tag/v110.0.250 for release notes including Known Issues, Breaking Changes, Bugs Fixed, new features.
+      Important you read the release notes to see what's changed in this version.</releaseNotes>
+    <copyright>Copyright © The CefSharp Authors</copyright>
+    <tags>wpf chrome browser chromium-embedded cefsharp</tags>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="CefSharp.Common.NETCore" version="[110.0.250]" include="Runtime,Compile,Build,Native" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
